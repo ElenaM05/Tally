@@ -1,0 +1,162 @@
+
+/*body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .game-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .board-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 400px;
+    border: 4px solid #222;
+    border-radius: 8px;
+    background: #f7f7f7;
+    padding: 5px;
+  }
+  
+  .square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .player {
+    width: 25px;
+    height: 25px;
+    background: gold;
+    border-radius: 50%;
+    font-weight: bold;
+    text-align: center;
+    line-height: 25px;
+    color: #222;
+    font-size: 14px;
+  }
+  
+  .snake {
+    background: rgba(255, 0, 0, 0.5);
+    color: white;
+  }
+  
+  .ladder {
+    background: rgba(0, 200, 0, 0.5);
+    color: white;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background: #388E3C;
+  }
+  
+  button:disabled {
+    background: #bbb;
+    cursor: not-allowed;
+  }
+  
+  .message {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #222;
+  }
+  */
+  .game-container {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #d9dfd9be;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .board-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    overflow-x: auto; /* Allows scrolling if needed */
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr); /* 10 columns */
+    gap: 2px;
+    width: 100%;
+    max-width: 500%; /* Adjust size as needed */
+    border: 3px solid #333; /* Adds a visible border */
+    background: #fff;
+  }
+  
+  .square {
+    width: 40px; /* Adjusted for better spacing */
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    position: relative;
+  }
+  
+  .player {
+    background: rgba(48, 34, 152, 0.744);
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+  }
+  
+  .snake {
+    background-color: #ffcccb; /* Light red */
+  }
+  
+  .ladder {
+    background-color: #c3e6cb; /* Light green */
+  }
+  

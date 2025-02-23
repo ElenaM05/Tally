@@ -1,38 +1,87 @@
-.App {
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #77817c9f, #55635c41);
   text-align: center;
+  margin: 0;
+  padding: 0;
+  color: rgb(0, 0, 0);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App Container */
+.app-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  min-height: 100vh;
+  padding-top: 20px;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: rgba(207, 206, 222, 0.1);
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.App-link {
-  color: #61dafb;
+.nav-link {
+  color: rgb(4, 80, 56);
+  text-decoration: none;
+  font-size: 18px;
+  margin: 0 15px;
+  transition: all 0.3s ease;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link:hover {
+  color: #069124;
+}
+
+/* Home Container */
+.home-container {
+  margin-top: 40px;
+  background: rgba(245, 243, 243, 0.2);
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  width: 80%;
+  max-width: 500px;
+}
+
+.home-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.home-title span {
+  color: #316f3c;
+}
+
+.home-subtitle {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Buttons */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.home-button {
+  background: #01582b;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.home-button:hover {
+  background: #0a3617;
 }
