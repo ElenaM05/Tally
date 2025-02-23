@@ -5,7 +5,7 @@ import SalaryPage from "./SalaryPage";
 import Transactions from "./Transactions";
 import Savings from "./Savings";
 import Game from "./Game"; 
-import PieCharts from "./PieCharts"; // Import PieCharts
+import PieCharts from "./PieCharts"; 
 import "./App.css";
 
 function App() {
@@ -34,7 +34,6 @@ function App() {
   );
 }
 
-// Home Page Component
 function Home() {
   return (
     <div className="home-container">
