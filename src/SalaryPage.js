@@ -101,7 +101,7 @@ function SalaryPage() {
       {success && <p className="text-green-500 mt-2 text-center">{success}</p>}
       {error && <p className="text-red-500 mt-2 text-center">{error}</p>}
     </div>
-  );
+  )
 }
 
 export default SalaryPage;*/
